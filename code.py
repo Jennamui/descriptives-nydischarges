@@ -11,12 +11,13 @@ df.shape
 list(df)
 
 #Tableone
-columns = ['total_charges', 'total_costs','length_of_stay']
-categorical = ['gender','race','ethnicity','type_of_admission']
+columns = ['total_charges','total_costs', 'length_of_stay', 'gender','race','type_of_admission']
+categorical = ['gender','race','type_of_admission']
 groupby = ['type_of_admission']
-labels = ['Admission_type']
-mytable = TableOne(df, columns=columns, categorical=categorical, groupby=groupby, rename=labels, pval=False)
+mytable = TableOne(df, columns=columns, categorical=categorical, groupby=groupby, pval=False)
 print(mytable.tabulate(tablefmt = "fancy_grid"))
+mytable.to_csv('data/tableone.csv')
+
 
 ##Total Costs
 mean_total_costs = df['total_costs'].mean()

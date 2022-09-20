@@ -1,0 +1,15 @@
+,,Grouped by type_of_admission,Grouped by type_of_admission,Grouped by type_of_admission,Grouped by type_of_admission,Grouped by type_of_admission,Grouped by type_of_admission
+,,Missing,Overall,Elective,Emergency,Newborn,Urgent
+n,,,1000,251,439,200,110
+"total_charges, mean (SD)",,0,12954.4 (12228.6),12270.3 (9515.1),18118.1 (14058.0),3594.9 (1432.2),10925.0 (9573.3)
+"total_costs, mean (SD)",,0,10103.5 (12149.5),7517.1 (7641.2),16341.7 (14742.1),1546.6 (618.2),6667.4 (5152.3)
+"length_of_stay, mean (SD)",,0,3.4 (2.9),3.0 (2.4),4.3 (3.5),2.1 (0.9),3.5 (2.8)
+"gender, n (%)",F,0,621 (62.1),221 (88.0),230 (52.4),93 (46.5),77 (70.0)
+"gender, n (%)",M,,379 (37.9),30 (12.0),209 (47.6),107 (53.5),33 (30.0)
+"race, n (%)",Black/African American,0,7 (0.7),4 (1.6),,2 (1.0),1 (0.9)
+"race, n (%)",White,,992 (99.2),247 (98.4),438 (99.8),198 (99.0),109 (99.1)
+"race, n (%)",Other Race,,1 (0.1),,1 (0.2),,
+"type_of_admission, n (%)",Elective,0,251 (25.1),251 (100.0),,,
+"type_of_admission, n (%)",Emergency,,439 (43.9),,439 (100.0),,
+"type_of_admission, n (%)",Newborn,,200 (20.0),,,200 (100.0),
+"type_of_admission, n (%)",Urgent,,110 (11.0),,,,110 (100.0)
